@@ -21,7 +21,7 @@ const ProjectCard = (props: Props) => {
             <div className="mt-3 flex items-center justify-between gap-2">
                 <a className="text-sm underline underline-offset-4 hover:no-underline" href="" target="_blank"
                    rel="noreferrer">View project →</a>
-                <button className="rounded-md border px-2 py-1 text-sm hover:bg-gray-100 "
+                <button className="rounded-md border px-2 py-1 text-sm hover:bg-[#363636] "
                         onClick={() => setExpanded(prevState => !prevState)}>
                     {expanded ? "Hide details" : "Show details"}
                 </button>
