@@ -13,7 +13,7 @@ function App() {
                 <Route path="/about" element={<About />} />
             </Routes>
             <footer className="mx-auto max-w-5xl p-4 text-xs text-gray-500">
-                © {new Date().getFullYear()} Braden Guliano
+                © {new Date().getFullYear()} Kennedy Marren
             </footer>
         </div>
     );
