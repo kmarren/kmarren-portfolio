@@ -7,21 +7,27 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-        title: "React Personal Portfolio",
-        description: "Rush workshop for designing a personal portfolio.",
-        details: "React + vite + tailwindcss + GitHub Pages",
+        title: "Project 1",
+        description: "This is a project",
+        details: "These are the frameworks and languages i used",
         link: "#",
     },
     {
-        title: "AI Agent",
-        description: "Personalized AI that responds to prompts about my schedule.",
-        details: "Ollama + OpenWebUI + Qdrant",
+        title: "Project 2",
+        description: "This is a project",
+        details: "These are the frameworks and languages i used",
         link: "#",
     },
     {
-        title: "Spot robot fetch",
-        description: "Wrote python code to allow a Spot robot to play fetch using CV.",
-        details: "Python + gRPC + Ultralytics YOLO",
+        title: "Project 3",
+        description: "This is a project",
+        details: "These are the frameworks and languages i used",
+        link: "#",
+    },
+    {
+        title: "Project 4",
+        description: "This is a project",
+        details: "These are the frameworks and languages i used",
         link: "#",
     },
 ];

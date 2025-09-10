@@ -6,13 +6,13 @@ import Header from "./components/Header.tsx";
 
 function App() {
     return (
-        <div className="min-h-dvh bg-white text-gray-900 ">
+        <div className="min-h-dvh bg-[#161616] text-gray-900 ">
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
             </Routes>
-            <footer className="mx-auto max-w-5xl p-4 text-xs text-gray-500">
+            <footer className="mx-auto max-w-5xl p-4 text-xs text-gray-100">
                 © {new Date().getFullYear()} Kennedy Marren
             </footer>
         </div>

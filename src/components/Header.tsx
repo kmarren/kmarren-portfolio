@@ -1,13 +1,13 @@
 import { NavLink } from "react-router";
 
 const Header = () => {
-    const base = "px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-100";
-    const active = "bg-gray-100";
+    const base = "px-3 py-2 rounded-md text-sm font-medium hover:bg-[#363636]";
+    const active = "bg-[#363636]";
 
     return (
-        <header className="border-b">
-            <nav className="mx-auto max-w-5xl flex items-center justify-between p-4">
-                <h1 className="text-xl font-bold">My Portfolio</h1>
+        <header className="border-b border-white">
+            <nav className="mx-auto max-w-5xl flex items-center justify-between p-4 text-white">
+                <h1 className="text-xl">Kennedy Marren</h1>
                 <div className="flex gap-2">
                     <NavLink to="/" className={
                         ({ isActive }) => `${base} ${isActive ? active : ""}`
