@@ -14,6 +14,12 @@ const Header = () => {
                     }>Home</NavLink>
                     <NavLink to="/about"
                              className={({ isActive }) => `${base} ${isActive ? active : ""}`}>About</NavLink>
+                    <a href="https://www.linkedin.com/in/kennedy-marren-3b7225351"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className={`${base}`}>
+                        Linkedin
+                    </a>
                 </div>
             </nav>
         </header>
