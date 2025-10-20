@@ -5,6 +5,7 @@ type Props = {
     description: string
     details: string
     link: string
+    image: string
 }
 
 const ProjectCard = (props: Props) => {
@@ -12,6 +13,11 @@ const ProjectCard = (props: Props) => {
 
     return (
         <article className="rounded-xl border p-4 shadow-sm border-white text-white">
+            <img
+                src={props.image}
+                alt={props.title}
+                className="w-full h-48 object-cover rounded-lg mb-3"
+            />
             <h3 className="text-lg font-semibold text-gray-100">{props.title}</h3>
             <p className="text-sm text-gray-100">{props.description}</p>
             {expanded && (
