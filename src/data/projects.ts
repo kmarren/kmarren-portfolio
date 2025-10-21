@@ -1,5 +1,5 @@
 import waddle from "../assets/Waddle.png";
-import headshot from "../assets/headshot.png";
+import workout from "../assets/workout.png";
 
 export type Project = {
     title: string
@@ -18,24 +18,10 @@ export const projects: Project[] = [
         image: waddle
     },
     {
-        title: "Project 2",
-        description: "This is a project",
-        details: "These are the frameworks and languages i used",
-        link: "#",
-        image: headshot
-    },
-    {
-        title: "Project 3",
-        description: "This is a project",
-        details: "These are the frameworks and languages i used",
-        link: "#",
-        image: headshot
-    },
-    {
-        title: "Project 4",
-        description: "This is a project",
-        details: "These are the frameworks and languages i used",
-        link: "#",
-        image: headshot
+        title: "Workout Tracker",
+        description: "A simple Android app to log workouts, track progress, and stay consistent with fitness goals",
+        details: "Kotlin and modern Android components",
+        link: "https://github.com/kmarren/workout-tracker",
+        image: workout
     },
 ];

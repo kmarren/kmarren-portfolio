@@ -17,7 +17,7 @@ const About = () => {
                 />
             </div>
             <p className='text-gray-100'>
-                This line describes who I am as a person, a worker, and a student.
+                I'm Kennedy, a passionate software engineer.
             </p>
         </main>
     );
